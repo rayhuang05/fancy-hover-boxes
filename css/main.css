@@ -18,12 +18,13 @@ html {
   transition: all .2s line;
 }
 
-.hover-box:hover .hover-box-img {
-  filter:grayscale(0);
-  transform: scale(1.1)
-}
-
 .hover-box-hover .hover-box-caption,
 .hover-box-hover .hover-box-caption {
   bottom: 0;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  filter:grayscale(0);
+  transform: scale(1.1)
 }
